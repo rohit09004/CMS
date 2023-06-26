@@ -138,7 +138,7 @@ public void Test5() throws EncryptedDocumentException, InterruptedException, IOE
         homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		Thread.sleep(1000);
 		String homePagetitle= driver.getTitle();
-		Assert.assertEquals(homePagetitle,"ome Page", "Invalid Credentials");
+		Assert.assertEquals(homePagetitle,"Home Page", "Invalid Credentials");
        
 		System.out.println("Test 5 passed with invalid credentials");  
 	   

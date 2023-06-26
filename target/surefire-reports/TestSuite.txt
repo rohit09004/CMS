@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.923 sec <<< FAILURE! - in TestSuite
-Test5(com.csm.qa.test.LoginPageTest)  Time elapsed: 8.475 sec  <<< FAILURE!
-java.lang.AssertionError: Invalid Credentials expected [ome Page] but found [Home Page]
-	at com.csm.qa.test.LoginPageTest.Test5(LoginPageTest.java:141)
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.234 sec - in TestSuite
